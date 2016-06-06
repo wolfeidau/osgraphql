@@ -1,0 +1,57 @@
+hash: fd2470d6cf93f6725ec861871a5b90ba7001ef7f4783f717b250f6934ea58fe9
+updated: 2016-06-06T19:43:48.422504859+10:00
+imports:
+- name: github.com/alecthomas/kingpin
+  version: 30de531dd802b2b402bf7dfd89515d6722a56a35
+- name: github.com/alecthomas/template
+  version: a0175ee3bccc567396460bf5acd36800cb10c49c
+  subpackages:
+  - parse
+- name: github.com/alecthomas/units
+  version: 2efee857e7cfd4f3d0138cc3cbb1b4966962b93a
+- name: github.com/go-ole/go-ole
+  version: 572eabb84c424e76a0d39d31510dd7dfd62f70b2
+  subpackages:
+  - oleutil
+- name: github.com/graphql-go/graphql
+  version: a5cf5f205dfd1cec7d9c7a5e94f5f2084faf47bc
+  subpackages:
+  - gqlerrors
+  - language/ast
+  - language/kinds
+  - language/parser
+  - language/printer
+  - language/source
+  - language/visitor
+  - language/location
+  - language/lexer
+  - language/typeInfo
+- name: github.com/macaron-contrib/binding
+  version: 1935a991f230c27bd52423888e6e4b80f8cd5ab4
+- name: github.com/shirou/gopsutil
+  version: 586bb697f3ec9f8ec08ffefe18f521a64534037c
+  subpackages:
+  - cpu
+  - disk
+  - process
+  - internal/common
+  - host
+  - mem
+  - net
+- name: github.com/shirou/w32
+  version: 3c9377fc6748f222729a8270fe2775d149a249ad
+- name: github.com/StackExchange/wmi
+  version: f3e2bae1e0cb5aef83e319133eabfee30013a4a5
+- name: github.com/Unknwon/com
+  version: 28b053d5a2923b87ce8c5a08f3af779894a72758
+- name: github.com/Unknwon/macaron
+  version: 9b82b0372a4edf52f66fbc8feaa6aafe0123001d
+  subpackages:
+  - inject
+- name: golang.org/x/net
+  version: c4c3ea71919de159c9e246d7be66deb7f0a39a58
+  subpackages:
+  - context
+- name: gopkg.in/ini.v1
+  version: 72ba3e6b9e6b87e0c74c9a7a4dc86e8dd8ba4355
+devImports: []

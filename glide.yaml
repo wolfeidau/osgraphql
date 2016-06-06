@@ -1,0 +1,11 @@
+package: github.com/wolfeidau/osgraphql
+import:
+- package: github.com/Unknwon/macaron
+- package: github.com/alecthomas/kingpin
+- package: github.com/graphql-go/graphql
+- package: github.com/macaron-contrib/binding
+- package: github.com/shirou/gopsutil
+  subpackages:
+  - cpu
+  - disk
+  - process
